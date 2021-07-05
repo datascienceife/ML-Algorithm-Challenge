@@ -17,7 +17,7 @@ The rules and guidelines for this challenge are as follows:
 
 4. For python developers (numpy is advisable).
 
-5. To push your solution to us, make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) to DSN's GitHub page at https://github.com/datascienceife/ML-Algorithm-Challenge. Ensure to add your readme file to understand your code.
+5. To push your solution to us, make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests) to AI+ OAU GitHub page at https://github.com/datascienceife/ML-Algorithm-Challenge. Ensure to add your readme file to understand your code.
 
 6. The top 3 optimized code will be compensated as follows:
 
@@ -29,7 +29,7 @@ The rules and guidelines for this challenge are as follows:
 
 ---
 
-For issues on this challenge kindly reach out to the AI+campus/city managers
+For issues on this challenge kindly reach out to the AI+campus Managers
 
 **WHATSAPP**:
 
