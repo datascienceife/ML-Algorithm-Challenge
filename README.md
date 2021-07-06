@@ -48,12 +48,12 @@ In most real world cases p will not be a single point to predict but rather a li
 		create a for loop to iterate through all the points we want to predict and for each point predict the outcome and add the result to the created list
 		code snippet:
 		    prediction_points = [points that we want to predict]
-			predictors = [points for which we know the outcomes]
-			outcomes = [outcomes for each point in point]
+		    predictors = [points for which we know the outcomes]
+		    outcomes = [outcomes for each point in point]
 		    predicted_outcomes = []
 			for p in prediction_points:
 			    prediction = knn_predict(p, predictors, outcomes, k = 5)
-				predicted_outcomes.append(prediction)
+			    predicted_outcomes.append(prediction)
 			
 	Second method :
 		Using list comprehension which is easier
