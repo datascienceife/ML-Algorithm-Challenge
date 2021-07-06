@@ -45,7 +45,7 @@ In most real world cases p will not be a single point to predict but rather a li
 
 	First method : 
 		Using contemporary method by creating a list to keep the values of our predictions
-		craete a for loop to iterate through all the points we want to predict and for each point prdict the outcome and add the result to the created list
+		create a for loop to iterate through all the points we want to predict and for each point predict the outcome and add the result to the created list
 		code snippet:
 		    prediction_points = [points that we want to predict]
 			predictors = [points for which we know the outcomes]
