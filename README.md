@@ -41,9 +41,10 @@ The code is divided into FOUR main functions:
 	we call the find nearest neighbours fuction on a point p and set the indexes gotten to a list called ind
 	we then call the majority vote function on the list of a sliced list containing just the outcomes of the indexes of the nearest neighnours
 	
-In most real world cases p will not be a single point to predict but rather a list of points to predict therefore the code can be run in 2 methodss:
+In most real world cases p will not be a single point to predict but rather a list of points to predict therefore the code can be run in 2 methods:
+
 	First method : 
-		Using contemporary method by creating a list to keep the values of our predictions,
+		Using contemporary method by creating a list to keep the values of our predictions
 		craete a for loop to iterate through all the points we want to predict and for each point prdict the outcome and add the result to the created list
 		code snippet:
 		    prediction_points = [points that we want to predict]
