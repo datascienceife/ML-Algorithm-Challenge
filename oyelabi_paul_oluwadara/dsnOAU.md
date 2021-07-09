@@ -12,6 +12,30 @@ Below are runs of the sklearn and my implementation.
            k: the numbers of neighbors.
            method: euclidean/manhattan.
            mode: classification/regression.
+           
+        
+        fit method:
+            The KNN algorithm doesn't really learn, this method only
+            captures the training dataset with which test samples will 
+            be compared.
+            
+        predict method:
+            The prediction is made by comparing the distance of datapoints
+            in the training set to the the test sample. This method calls 
+            the util method which calculates the distance metric and then
+            assign the class with majority vote(with highest number of
+            occurence) to the test sample.
+          
+        predict_proba method:
+            This method works like the predict method, it calls the proba_util
+            method which performs almost same functionality as the util method
+            but it calculates the probability of the test belonging to what
+            predict mwthods performs.
+            
+        The argpartition method used in the distance metrics works by partitioning
+        the array into two, with the k least numbers on the left and others on the
+        right and then returns the indices of the k-least numbers, which is then 
+        used to index the target variable to get the corresponding labels.
     
 `clf_1 --> sklearn KNN classifier algorithm`
 
