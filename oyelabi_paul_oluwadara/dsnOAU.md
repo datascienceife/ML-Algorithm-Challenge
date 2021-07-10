@@ -3,7 +3,8 @@
 A light implementation of K nearest neighbors algorithm.
 This implementation only supports euclidean and manhattan
 distance metrics. It also provides the probability of
-prediction.
+prediction. I leveraged on Numpy and python built-in 
+statistics package.
     
 It provides common interface as the sklearn kNN algorithm.
 Below are runs of the sklearn and my implementation.
