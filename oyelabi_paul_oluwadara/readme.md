@@ -43,23 +43,23 @@ the K selected datapoints to the new sample.
             
         euclidean method:
             This method calculates the euclidean distance between datapoints using
-            the numpy linear algebra method. I used the numpy argpartition method to
-            sort the calculated distance and then it returns the indices of the K
-            closest (smallest value) distances.
+            the numpy linear algebra method. I used the numpy argpartition method
+            to sort the calculated distance and then it returns the indices of the
+            K closest (smallest value) distances.
         
         manhattan method:
             This method calculates the manhattan distance between datapoints using
-            the numpy linear algebra method. I used the numpy argpartition method to
-            sort the calculated distance and then it returns the indices of the K
-            closest (smallest value) distances.
+            the numpy linear algebra method. I used the numpy argpartition method
+            to sort the calculated distance and then it returns the indices of the
+            K closest (smallest value) distances.
             
         util method:
              This method calls either euclidean or manhattan method according to the
              method parameter passed to the class constructor. It gets the indices of
              the K closest datapoints which it then uses to index the target varible
-             to get the corresponding class label. It then calculates the majority vote
-             using the python built-in statistics mode method. If the mode parameter is 
-             set to `regression` this method returns the mean of the K nearest datapoints.
+             to get the corresponding class label. It then calculates the majority
+             vote using the python built-in statistics mode method. If the mode parameter
+             is set to `regression` this method returns the mean of the K nearest datapoints.
              
              `I could have assigned class randomly whenever there is a tie in the majority
               vote, but instead, I raised a warning and then advise the data scientist to
