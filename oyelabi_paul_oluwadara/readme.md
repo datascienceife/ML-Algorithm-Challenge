@@ -79,4 +79,4 @@ the K selected datapoints to the new sample.
         right and then returns the indices of the k-least numbers, which is then 
         used to index the target variable to get the corresponding labels.
     
-### Some tests are found in [dsnOAU.md](https://github.com/Yodeman/ML-Algorithm-Challenge/edit/main/oyelabi_paul_oluwadara/dsnOAU.md)
+### Some tests are found in [dsnOAU.md](https://github.com/Yodeman/ML-Algorithm-Challenge/main/oyelabi_paul_oluwadara/dsnOAU.md)
