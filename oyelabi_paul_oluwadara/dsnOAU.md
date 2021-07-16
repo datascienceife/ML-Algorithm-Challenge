@@ -652,10 +652,10 @@ ry_pred = regr_1.predict(rx_test)
 
 
 ```python
-print("sklearn KNN regressor percentage RMSE: {:.2f}".format(mean_squared_error(ry_test, ry_pred)))
+print("sklearn KNN regressor RMSE: {:.2f}".format(mean_squared_error(ry_test, ry_pred)))
 ```
 
-    sklearn KNN regressor percentage RMSE: 4232.01
+    sklearn KNN regressor RMSE: 4232.01
     
 
 ### My KNN regressor
@@ -673,10 +673,10 @@ ry2_pred = regr_2.predict(rx_test)
 
 
 ```python
-print("My KNN regressor percentage RMSE: {:.2f}".format(mean_squared_error(ry_test, ry2_pred)))
+print("My KNN regresRMSE: {:.2f}".format(mean_squared_error(ry_test, ry2_pred)))
 ```
 
-    My KNN regressor percentage RMSE: 4232.01
+    My KNN regressor RMSE: 4232.01
     
 
 
