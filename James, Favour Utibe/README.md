@@ -12,7 +12,9 @@ How the algorithm functions
 In this algorithm, I made use of the euclidean distance. 
 
 Euclidean distance is just a straight-line distance between two data points in Euclidean space[1]. It can be calculated as follows:
+
 d(x,y) = ((x1 - y1)² + (x2 - y2)² + ... + (xn - yn)²)½
+
 But this way of calculating distance accounts for only 2-dimensional points, in the case of 3-dimensional points, it won't function well. In my code, I made use of the numpy method of calculating distances and this also accounts for 3-dimensional points.
 
 Algorithm Implementation
